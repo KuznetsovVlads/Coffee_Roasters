@@ -1,0 +1,31 @@
+.promo {
+    height: 805px;
+    padding-top: 48px;
+    background-image: url("/src/img/bg/main_bg.jpg") repeat 100% 0;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__list {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        & li a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #EEEEEE;
+            
+        }
+    }
+    &__main a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #EEEEEE;
+        
+    }
+}
