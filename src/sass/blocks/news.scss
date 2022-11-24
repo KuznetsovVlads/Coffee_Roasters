@@ -1,0 +1,50 @@
+.news {
+    min-height: 915px;
+    padding: 96px 0;
+    background: #EEEEEE;
+    &__head {
+        text-align: center;
+        & h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        & p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+    }
+    &__cards {
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 32px;
+
+    }
+    &__card {
+        width: 352px;
+        height: 504px;
+        & h4 {
+            margin-top: 24px;
+            margin-bottom: 0;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: uppercase;
+        }
+        & p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        & span a {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+}

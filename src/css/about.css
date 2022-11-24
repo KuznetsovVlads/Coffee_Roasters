@@ -1,0 +1,37 @@
+.about {
+  height: 600px;
+  background: url("/src/img/bg/bg_2.jpg") no-repeat center/cover;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 145px 0;
+}
+.about__items {
+  width: 352px;
+  height: 312px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 48px;
+}
+.item__img {
+  padding: 0 16px;
+}
+.item h4 {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.item p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.item__text_right {
+  text-align: right;
+}

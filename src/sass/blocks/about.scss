@@ -1,0 +1,39 @@
+.about {
+    height: 600px;
+    background: url('/src/img/bg/bg_2.jpg') no-repeat center / cover;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 145px 0;
+    }
+    &__items {
+        width: 352px;
+        height: 312px;
+    }
+}
+.item {
+    display: flex;
+    margin-bottom: 48px;
+    &__img {
+        padding:0 16px;
+    }
+    & h4 {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        text-transform: uppercase;
+    }
+    & p {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        
+    }
+    &__text_right {
+        text-align: right;
+    }
+    
+}

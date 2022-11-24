@@ -1,0 +1,33 @@
+.location {
+    min-height: 815px;
+    background: url('/src/img/bg/bg_5.jpg') no-repeat center/cover;
+    color: white;
+    &__head {
+        padding-top: 96px;
+        text-align: center;
+        & h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        & p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    &__cards {
+        padding-top: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        text-align: center;
+        & h4 {
+            margin: 24px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 48px;
+        }
+    }
+}

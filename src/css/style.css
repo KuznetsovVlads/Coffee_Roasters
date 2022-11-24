@@ -119,8 +119,8 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #99715a;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -297,7 +297,362 @@ template {
 }
 
 .promo {
-  background-image: url("/src/img/bg/main_bg.jpg");
+  min-height: 810px;
+  padding: 48px 40px 0;
+  background: url("/src/img/bg/main_bg.jpg") no-repeat center/cover;
+}
+.promo__logo {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.promo__title {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.promo__subtitle {
+  width: 765px;
+  margin: 24px auto;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.promo__subtitle :hover {
+  background-color: aquamarine;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header__list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.header__list li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #EEEEEE;
+}
+.header__main a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #EEEEEE;
+}
+
+.btn {
+  display: block;
+  width: 230px;
+  height: 48px;
+  margin: 48px auto;
+  border: 1px solid #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about {
+  height: 600px;
+  background: url("/src/img/bg/bg_2.jpg") no-repeat center/cover;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 145px 0;
+}
+.about__items {
+  width: 352px;
+  height: 312px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 48px;
+}
+.item__img {
+  padding: 0 16px;
+}
+.item h4 {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.item p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.item__text_right {
+  text-align: right;
+}
+
+.menu {
+  padding: 96px 0;
+  background-color: #EEEEEE;
+  height: 915px;
+}
+.menu__head {
+  margin: 0 auto;
+  text-align: center;
+}
+.menu__tabs {
+  text-align: center;
+}
+.menu__tab a {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.menu__items {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 72px auto;
+  column-gap: 30px;
+  row-gap: 24px;
+}
+.menu__item {
+  display: grid;
+  grid-template-columns: 72px 380px 45px;
+  width: 545px;
+  height: 75px;
+  gap: 24px;
+}
+.menu__item_text h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.menu__item_text p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.menu__item_price {
+  text-align: end;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.testimonials {
+  padding: 96px;
+  background: url("/src/img/bg/bg_4.jpg") no-repeat center/cover;
+  height: 505px;
+}
+.testimonials__wrapper {
+  width: 735px;
+  margin: 0 auto;
+  color: #eeeeee;
+  text-align: center;
+}
+.testimonials__wrapper h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.testimonials__wrapper p {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.testimonials__text {
+  margin-top: 48px;
+}
+
+.news {
+  min-height: 915px;
+  padding: 96px 0;
+  background: #EEEEEE;
+}
+.news__head {
+  text-align: center;
+}
+.news__head h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.news__head p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.news__cards {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 32px;
+}
+.news__card {
+  width: 352px;
+  height: 504px;
+}
+.news__card h4 {
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.news__card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.news__card span a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.location {
+  min-height: 815px;
+  background: url("/src/img/bg/bg_5.jpg") no-repeat center/cover;
+  color: white;
+}
+.location__head {
+  padding-top: 96px;
+  text-align: center;
+}
+.location__head h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.location__head p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.location__cards {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.location__card {
+  text-align: center;
+}
+.location__card h4 {
+  margin: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.subscribe {
+  min-height: 435px;
+  padding: 96px 0;
+  background-color: #111;
+  color: #FFFFFF;
+  text-align: center;
+}
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.subscribe p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.subscribe__form {
+  margin-top: 32px;
+}
+.subscribe__form input {
+  width: 277px;
+  height: 48px;
+  margin-right: 24px;
+  background-color: #111;
+  border: 1px solid #FFFFFF;
+  padding: 0px 0px 0px 24px;
+  color: #FFFFFF;
+}
+.subscribe__form input::placeholder {
+  color: #FFFFFF;
+}
+.subscribe__form button {
+  width: 173px;
+  height: 48px;
+  background-color: #111;
+  border: 1px solid #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+footer {
+  min-height: 120px;
+  padding: 48px 0;
+  background-color: #111;
+  color: #FFFFFF;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer__links {
+  column-gap: 48px;
+}
+footer .footer__social {
+  column-gap: 26px;
+}
+footer .footer__social li {
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 100%;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 24px;
+  text-align: center;
+  column-gap: 26px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+}
+footer a {
+  color: #FFFFFF;
+}
+footer p {
+  margin-right: -5%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 * {
@@ -309,4 +664,8 @@ template {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+a :hover {
+  color: red;
 }

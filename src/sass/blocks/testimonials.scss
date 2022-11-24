@@ -1,0 +1,26 @@
+.testimonials {
+    padding: 96px;
+    background: url('/src/img/bg/bg_4.jpg') no-repeat center / cover;
+    height: 505px;
+    &__wrapper {
+        width: 735px;
+        margin: 0 auto;
+        color: #eeeeee;
+        text-align: center;
+        & h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        & p {
+            margin-bottom: 24px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+    }
+    &__text {
+        margin-top: 48px;
+    }
+}

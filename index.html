@@ -8,22 +8,30 @@
     <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/promo.css">
+    <link rel="stylesheet" href="/src/css/about.css">
+    <link rel="stylesheet" href="/src/css/looking.css">
+    <link rel="stylesheet" href="/src/css/menu.css">
+    <link rel="stylesheet" href="/src/css/testimonials.css">
+    <link rel="stylesheet" href="/src/css/news.css">
+    <link rel="stylesheet" href="/src/css/location.css">
+    <link rel="stylesheet" href="/src/css/subscribe.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
 
 </head>
 <body>
-    <section class="promo">
+    <section id="promo" class="promo">
         <header class="header">
             <div class="header__main">
                 <a href="#">Coffee House</a>
             </div>
             <ul class="header__list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">why us</a></li>
-                <li><a href="#">menu</a></li>
-                <li><a href="#">happy clients</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">our locations</a></li>
-                <li><a href="#">newsletter</a></li>
+                <li><a href="#promo">Home</a></li>
+                <li><a href="#about">why us</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#testimonials">happy clients</a></li>
+                <li><a href="#news">blog</a></li>
+                <li><a href="#location">our locations</a></li>
+                <li><a href="#subscribe">newsletter</a></li>
             </ul>
         </header>
         <div class="container">
@@ -32,11 +40,316 @@
             </div>
             <h1 class="promo__title">The Coffee Roasters</h1>
             <h2 class="promo__subtitle">We source our coffee seasonally, from farmers who care, and roast to highlight what makes them special.</h2>
-            <button class="promo__btn button">View our menu</button>
+            <a href="#menu" class="btn">View our menu</a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__items">
+                    <div class="item">
+                        <div class="item__text_right">
+                            <h4>Indoor Seating</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="item__img">
+                            <img src="/src/icons/01_icon.png" alt="cup">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__text_right">
+                            <h4>Pet Friendly</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="item__img">
+                            <img src="/src/icons/02_icon.png" alt="cup">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__text_right">
+                            <h4>Take Away</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="item__img">
+                            <img src="/src/icons/03_icon.png" alt="cup">
+                        </div>
+                    </div>
+                </div>
+                <div class="about__items">
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="/src/icons/04_icon.png" alt="cup">
+                        </div>
+                        <div class="item__text">
+                            <h4>Wheelchair Accessible</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="/src/icons/05_icon.png" alt="cup">
+                        </div>
+                        <div class="item__text">
+                            <h4>Vegan Options</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="/src/icons/06_icon.png" alt="cup">
+                        </div>
+                        <div class="item__text">
+                            <h4>Cyclist Friendly</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="looking" class="looking">
+        <div class="container">
+            <div class="looking__wrapper">
+                <h2>Looking for a fresh coffee?</h2>
+                <div class="line"></div>
+                <p>Come drink a coffee with us on <br>
+                    Fleet Street,  Chancery Lane or Milkwood Road!</p>
+                <a href="https://europeancoffeetrip.com/riga/" class="btn" target="_blank">Book a table</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="menu__head">
+                <h2>Explore our menu</h2>
+                <div class="line line_black"></div>
+                <p>Available all day! We can not guarantee our foods are allergen- <br>free. Service charge not included.</p>
+
+            </div>
+            <div class="menu__tabs">
+                <div class="menu__tab">
+                    <a href="#" class="food active">FOOD</a>
+                    <a href="#" class="drinks">DRINKS</a>
+                </div>
+            </div>
+            <div class="menu__items">
+                <div class="menu__item">
+                    <img src="/src/img/menu/01_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Prufrock Breakfast Bun</h4>
+                        <p>Brioche bun, with bacon, scrambled egg, melty cheese and mustard</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $8
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/03_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Mushrooms (Vegan on request)</h4>
+                        <p>Field mushrooms on toast with graceburn cheese and aioli</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $3.45
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/02_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Bircher muesli (VEgan)</h4>
+                        <p>Bircher muesli with strawberries and cacao nibs</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $6.5
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/05_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Tomatoes on toast</h4>
+                        <p>Heirloom tomatoes with lovage pesto and chives on toasted sourdough</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $3.45
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/03_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>House Granola (Vegetarian, Glutten Free)</h4>
+                        <p>Granola with jumbo oats and nuts served with Greek yoghurt and apricots</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $6.5
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/01_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Fruit Toast</h4>
+                        <p>Fruity rye toast served with Stichelton cheese and red plum</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $3.45
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/04_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Prufrock benny</h4>
+                        <p>Cackleberry Farm poached eggs, Red Brick espresso hollandaise on toast</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $10.0
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/02_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Eggs on toast</h4>
+                        <p>Cackleberry eggs - poached, fried or scrambled on sourdough toast</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $3.45
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/05_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Soup (Vegan on request)</h4>
+                        <p>Gazpacho served with sourdough toast</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $6.5
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="/src/img/menu/03_menu.png" alt="menu">
+                    <div class="menu__item_text">
+                        <h4>Toast (Vegan on request)</h4>
+                        <p>Sourdough toast with butter and blueberry and blackcurrant jam</p>
+                    </div>
+                    <div class="menu__item_price">
+                        $3.45
+                    </div>
+                </div>
+            </div>
 
         </div>
-
     </section>
-    
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonials__wrapper">
+                <h2>Testimonials</h2>
+                <div class="line"></div>
+                <div class="testimonials__text">
+                    <p>I had a cup of iced coffee, which was perfect size for me. Not too big. The cup is stylish with slim design. The iced coffee was perfect for a warm day like today.<br>The cafe is clean and welcoming.</p>
+                    <p>Chiho Sharp, local expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news">
+        <div class="container">
+            <div class="news__head">
+                <h2>News</h2>
+                <div class="line line_black"></div>
+                <p>Stay updated on all the latest Coffee House products, events<br> & community news.</p>
+            </div>
+            <div class="news__cards">
+                <div class="news__card">
+                    <img src="/src/img/other/Rectangle 2.jpg" alt="coffee moka">
+                    <h4>Moka pot</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                    <span><a href="#">- Read more</a></span>
+                </div>
+                
+                <div class="news__card">
+                    <img src="/src/img/other/Rectangle 3.jpg" alt="coffee moka">
+                    <h4>Women in Coffee - Women’s Collective</h4>
+                    <p>Our Quality Control Lead in Melbourne, Jane Doe, is instrumental in selecting single origin coffee for Coffe House Espresso.</p>
+                    <span><a href="#">- Read more</a></span>
+                    
+                </div>
+                
+                <div class="news__card">
+                    <img src="/src/img/other/Rectangle 4.jpg" alt="coffee moka">
+                    <h4>Coffee Roasters and Espresso Specialists - Our Story</h4>
+                    <p>Coffee House is built on relationships. Our success as a coffee roaster is down to the success of the people we choose to partner with – from our first café customer, to our staff around the world.</p>
+                    <span><a href="#">- Read more</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="location" class="location">
+        <div class="container">
+            <div class="location__head">
+                <h2>Our locations</h2>
+                <div class="line"></div>
+                <p>Come drink a coffee with us<br>on Fleet Street or Chancery Lane!</p>
+            </div>
+            <div class="location__cards">
+                <div class="location__card">
+                    <img src="/src/img/location/01_fleet_street.png" alt="Street caffee">
+                    <h4>Fleet Street Press</h4>
+                    <p>Mon - Sun:  10:00 - 00:00 <br>3 Fleet Street, London EC4Y 1AU</p>
+                </div>
+                <div class="location__card">
+                    <img src="/src/img/location/02_Chancery_press.png" alt="Chancery press">
+                    <h4>Chancery Press</h4>
+                    <p>Mon - Sun:  10:00 - 00:00 <br>81 Chancery Lane, London WC2A 1DD</p>
+                </div>
+                <div class="location__card">
+                    <img src="/src/img/location/03_Shoreditch.png" alt="Shoreditch">
+                    <h4>SHOREDITCH</h4>
+                    <p>Mon - Sun:  10:00 - 00:00 <br>Unit 15, Stone Trading Estate <br>Milkwood Road, Herne Hill <br>SE24 0JU</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="subscribe">
+        <div class="container">
+            <div class="subscribe__head">
+                <h2>Our newsletter</h2>
+                <div class="line"></div>
+                <p>Available all day! We can not guarantee our foods are allergen- <br>free. Service charge not included.</p>
+            </div>
+            <div class="subscribe__form">
+                <form action="" method="get">
+                    <input type="text" name="email" id="email" placeholder="Your E-mail Adress..."  required>
+                    <button type="submit">subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p>Copyright 2022 All rights reserved</p>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="footer__social">
+                <li><a href="#">Fb</a></li>
+                <li><a href="#">Tw</a></li>
+                <li><a href="#">Ig</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

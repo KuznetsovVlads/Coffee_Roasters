@@ -1,0 +1,32 @@
+.looking {
+    height: 432px;
+    padding: 96px 0;
+    background: url('/src/img/bg/bg_3.jpg') no-repeat center / cover;
+    &__wrapper {
+        height: 145px;
+        width: 525px;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+        & h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px; 
+        }
+        & p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+    }
+}
+.line {
+    margin: 24px auto;
+    width: 189px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    &_black{
+        border: 1px solid #444444;
+    }
+}

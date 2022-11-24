@@ -4,6 +4,13 @@
 @import 'base/variables';
 @import 'base/mixins';
 @import 'blocks/promo.scss';
+@import 'blocks/about.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/testimonials.scss';
+@import 'blocks/news.scss';
+@import 'blocks/location.scss';
+@import 'blocks/subscribe.scss';
+@import 'blocks/footer.scss';
 
 * {
     font-family: 'Inter', serif;
@@ -16,5 +23,7 @@
     margin: 0 auto;
 }
 
-
+a :hover {
+    color: red;
+}
 

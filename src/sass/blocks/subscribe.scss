@@ -1,0 +1,48 @@
+.subscribe {
+    min-height: 435px;
+    padding: 96px 0;
+    background-color: #111;
+    color: #FFFFFF;
+    text-align: center;
+    & h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    & p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__form {
+        margin-top: 32px;
+        
+        
+        
+        & input {
+            width: 277px;
+            height: 48px;
+            margin-right: 24px;
+            background-color: #111;
+            border: 1px solid #FFFFFF;
+            padding: 0px 0px 0px 24px;
+            color: #FFFFFF;   
+            
+        }
+        & input::placeholder {
+            color: #FFFFFF;
+        }
+
+        & button {
+            width: 173px;
+            height: 48px;
+            background-color: #111;
+            border: 1px solid #FFFFFF;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 48px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
