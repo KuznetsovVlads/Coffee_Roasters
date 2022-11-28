@@ -19,9 +19,11 @@
     &__cards {
         padding-top: 32px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
     &__card {
+        padding: 0 20px;
         text-align: center;
         & h4 {
             margin: 24px;

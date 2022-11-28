@@ -10,13 +10,13 @@
     &__title {
         margin-top: 24px;
         font-weight: 700;
-        font-size: 96px;
+        font-size: 6.2vw;
         line-height: 96px;
         text-align: center;
         color: #FFFFFF;
     }
     &__subtitle {
-        width: 765px;
+        max-width: 765px;
         margin: 24px auto;
         font-weight: 400;
         font-size: 32px;
@@ -30,6 +30,7 @@
     
 }
 .header {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,11 +47,13 @@
         }
     }
     &__main a {
+        
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         text-transform: uppercase;
         color: #EEEEEE;
+        z-index: 3;
     }
 }
 .btn {

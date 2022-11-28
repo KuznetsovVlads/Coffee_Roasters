@@ -1,9 +1,9 @@
 .testimonials {
-    padding: 96px;
+    padding: 96px 15px;
     background: url('/src/img/bg/bg_4.jpg') no-repeat center / cover;
-    height: 505px;
+    min-height: 505px;
     &__wrapper {
-        width: 735px;
+        max-width: 735px;
         margin: 0 auto;
         color: #eeeeee;
         text-align: center;
