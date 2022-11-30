@@ -2,8 +2,8 @@
     min-height: 815px;
     background: url('/src/img/bg/bg_5.jpg') no-repeat center/cover;
     color: white;
+    padding: 96px 15px;
     &__head {
-        padding-top: 96px;
         text-align: center;
         & h2 {
             font-weight: 700;
@@ -26,7 +26,7 @@
         padding: 0 20px;
         text-align: center;
         & h4 {
-            margin: 24px;
+            margin: 24px 0;
             font-weight: 400;
             font-size: 24px;
             line-height: 48px;

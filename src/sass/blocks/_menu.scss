@@ -5,6 +5,9 @@
     &__head {
         margin: 0 auto;
         text-align: center;
+        & h2 {
+            font-size: 40px;
+        }
     }
     &__tabs {
         text-align: center;
@@ -28,10 +31,10 @@
     }
     &__item {
         display: grid;
-        grid-template-columns: 72px 380px 45px;
+        grid-template-columns: 20% 70% 10%;
         width: 545px;
         height: 75px;
-        gap: 24px;
+        
         &_text {
             & h4{
                 font-weight: 400;
@@ -40,10 +43,9 @@
                 text-transform: uppercase;
             }
             & p {
-                
+                margin-bottom: 0;
                 font-weight: 400;
                 font-size: 12px;
-                line-height: 24px;
             }
         }
         &_price {

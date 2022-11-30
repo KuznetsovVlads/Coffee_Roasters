@@ -12,7 +12,6 @@
 @import 'blocks/location.scss';
 @import 'blocks/subscribe.scss';
 @import 'blocks/footer.scss';
-@import 'blocks/media.scss';
 @import 'blocks/burger';
 
 
@@ -31,3 +30,4 @@ a :hover {
     color: red;
 }
 
+@import 'blocks/media.scss';

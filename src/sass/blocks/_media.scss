@@ -1,4 +1,4 @@
-@media (max-width: 991.98px) {
+  @media (max-width: 991.98px) {
     .container {
         max-width: 900px;
     }
@@ -20,9 +20,20 @@
     .header__main a {
         position: absolute;
     }
+    .menu__item {
+        width: 100%;
+    }
+
     .location__cards {
         justify-content: center;
-        margin: 0 200px;
+        margin: 0 100px;
+    }
+    .location__card {
+        margin-bottom: 32px;
+
+    }
+    .location__card:nth-child(3) {
+        margin-bottom: 0;
     }
   }
   @media (min-width: 992px) {
@@ -32,8 +43,94 @@
 
   }
 
-  @media (max-width: 767.98px) {
+  @media (max-width: 768.98px) {
     .container {
         max-width: 688px;
+    }
+    .promo {
+        min-height: 1032px;
+    }
+    .promo__logo {
+        margin-top: 203px;
+    }
+    .about {
+        min-height: 865px;
+        background-position: 30%;
+        background-size: 290%;
+        &__wrapper {
+            padding: 96px 40px;
+            display: block;
+        }
+        &__items_two {
+            margin-top: 48px;
+        }
+    }
+    .item__text_right {
+        text-align: left;
+
+    }
+    .item {
+		&__text_right {
+            order: 2;	
+		}
+    }
+    .item:last-child {
+        margin-bottom: 0;
+    }
+    .menu__item {
+        width: 100%;
+    }
+    
+    
+    .news__card {
+        width: auto;
+        height: auto;
+        margin-bottom: 48px;
+        
+        & img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .news__card:nth-child(3) {
+            margin-bottom: 0;
+    }
+
+    
+    footer {
+        padding: 48px 40px;
+    }
+    .footer__links {
+        display: none;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .container {
+        max-width: 495px;
+    }
+    .about {
+        min-height: 865px;
+        background-position: 22%;
+        background-size: 330%;
+    }
+    .location__cards {
+        margin: 0 10px;
+    }
+    .about__items {
+        max-width: 100%;
+    }
+  }
+
+  @media (max-width: 500.98px) {
+    .menu {
+        padding: 96px 15px;
+    }
+    .menu__item {
+        grid-template-columns: 26% 55% 5%;
+        height: fit-content;
+        column-gap: 10px;
     }
   }

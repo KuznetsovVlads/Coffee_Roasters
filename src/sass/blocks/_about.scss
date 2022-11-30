@@ -1,6 +1,6 @@
 .about {
-    height: 600px;
-    background: url('/src/img/bg/bg_2.jpg') no-repeat center / cover;
+    min-height: 600px;
+    background: url('/src/img/bg/bg_2.jpg') no-repeat center;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -8,7 +8,7 @@
     }
     &__items {
         width: 352px;
-        height: 312px;
+        min-height: 312px;
     }
 }
 .item {

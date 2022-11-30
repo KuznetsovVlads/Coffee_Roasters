@@ -1,10 +1,10 @@
 .looking {
-    height: 432px;
-    padding: 96px 0;
+    min-height: 432px;
+    padding: 96px 15px;
     background: url('/src/img/bg/bg_3.jpg') no-repeat center / cover;
     &__wrapper {
-        height: 145px;
-        width: 525px;
+        min-height: 145px;
+        max-width: 525px;
         margin: 0 auto;
         text-align: center;
         color: #FFFFFF;
@@ -25,8 +25,8 @@
     margin: 24px auto;
     width: 189px;
     height: 0px;
-    border: 1px solid #FFFFFF;
+    border-bottom: 1px  solid #FFFFFF;
     &_black{
-        border: 1px solid #444444;
+        border-bottom: 1px solid #444444;
     }
 }
